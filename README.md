@@ -5,5 +5,13 @@ I am trying to classify some sounds (breaking glass sound - Shooting sound), I u
 <li>then I get the median and  absolute_deviation for all windows for each sound file</li>
 <li>then I use some model machine learning to classify the sound after some preparation and visualization of the data  then I use the best model (Gradient Boosting) to classify the sound</li>
 
+<h2> used libraries </h2>
+<li> sklearn </li>
+<li> seaborn </li>
+<li> pandas </li>
+<li> matplotlib.pyplot </li>
+<li> numpy </li>
+<li> python version than 3.6 </li>
+
 
 
