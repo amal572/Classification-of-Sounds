@@ -1,17 +1,25 @@
-# machine_learning_project
-I am trying to classify some sounds (breaking glass sound - Shooting sound), I used ESC-50 dataset you can download it from  https://github.com/vbelz/audio_classification, which is a group of sounds but it has not the Shooting sound so I collected some sound files then I have 532 wave files.
+# Classification of Sounds - Machine Learning Project
+In this project aimed at classifying various sounds (specifically breaking glass and shooting sounds), I utilized the ESC-50 dataset. You can download it from [here]([link_to_dataset](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset). However, since the ESC-50 dataset does not include shooting sounds, I collected additional sound files, resulting in 532 wave files for analysis.
 
-<li>I get the window sample form the sound file then I start to extract features from the audio using some features in the time domain (zero crossing rate, short-term energy) and from the frequency domain (short-term entropy of energy, spectral centroid and spread, spectral entropy, spectral flux, spectral roll-off,  and the first 13 feature from MFCCs)</li>
-<li>then I get the median and  absolute_deviation for all windows for each sound file</li>
-<li>then I use some model machine learning to classify the sound after some preparation and visualization of the data  then I use the best model (Gradient Boosting) to classify the sound</li>
+## Methodology
 
-<h2> used libraries </h2>
-<li> sklearn </li>
-<li> seaborn </li>
-<li> pandas </li>
-<li> matplotlib.pyplot </li>
-<li> numpy </li>
-<li> python version than 3.6 </li>
+### Feature Extraction
+Extracted features from the audio encompassed both time domain features (zero crossing rate, short-term energy) and frequency domain features (short-term entropy of energy, spectral centroid and spread, spectral entropy, spectral flux, spectral roll-off, and the first 13 features from MFCCs).
 
+### Statistical Summary
+We calculated the median and absolute deviation for all windows within each sound file.
+
+### Modeling
+We employed various machine-learning models for sound classification. Following data preparation and visualization, the best-performing model, Gradient Boosting, was selected for final classification.
+
+## Repository Structure
+- **/data**: Contains the ESC-50 dataset and additional sound files collected.
+- **/scripts**: Includes scripts for feature extraction, data preparation, model training, and evaluation.
+- **/models**: Stores trained models, particularly the Gradient Boosting model.
+- **/results**: Holds evaluation metrics, classification reports, and visualizations.
+
+## Requirements
+- Python 3.x
+- Required Python libraries (seaborn, pandas, NumPy, SciPy, scikit-learn, Librosa)
 
 
