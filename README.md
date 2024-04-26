@@ -1,5 +1,5 @@
 # Classification of Sounds - Machine Learning Project
-In this project aimed at classifying various sounds (specifically breaking glass and shooting sounds), I utilized the ESC-50 dataset. You can download it from [here]([link_to_dataset](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset). However, since the ESC-50 dataset does not include shooting sounds, I collected additional sound files, resulting in 532 wave files for analysis.
+In this project aimed at classifying various sounds (specifically breaking glass and shooting sounds), I utilized the ESC-50 dataset. You can download it from [here]([https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset]). However, since the ESC-50 dataset does not include shooting sounds, I collected additional sound files, resulting in 532 wave files for analysis.
 
 ## Methodology
 
